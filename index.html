@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Self driving car</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="mainCanvas"></canvas>
+    <div id = "verticalButtons">
+        <button onclick="saveBestCar()">💾</button>
+        <button onclick="discardBestCar()">🗑️</button>
+    </div>
+    <canvas id="annCanvas"></canvas>
+
+    <script src="newtork-visualizer.js"></script>
+    <script src="ann.js"></script>
+    <script src="interpolate.js"></script>
+    <script src="intersect.js"></script>
+    <script src="road.js"></script>
+    <script src="car.js"></script>
+    <script src="controls.js"></script>
+    <script src="sensor.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
